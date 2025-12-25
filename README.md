@@ -10,7 +10,7 @@ A static, responsive personal portfolio and medical history management applicati
 - **Responsive Design**: Optimized for Mobile, Tablet, and Desktop.
 
 ## Usage
-1. Open `introduction.html` in your browser.
+1. Open `index.html` in your browser.
 2. Navigate to "Login" to create a new ID.
 3. Once logged in, use the Dashboard to manage medical records.
 

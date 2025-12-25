@@ -1,6 +1,6 @@
 const CACHE_NAME = 'medhistory-v1';
 const ASSETS_TO_CACHE = [
-    'introduction.html',
+    'index.html',
     'offline.html',
     'css/style.css',
     'js/supabase-config.js'

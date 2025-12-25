@@ -514,7 +514,7 @@ async function initDashboard() {
                 await window.sb.from('profiles').delete().eq('id', user.id);
 
                 await window.sb.auth.signOut();
-                window.location.href = 'introduction.html';
+                window.location.href = 'index.html';
             }
         });
     }
@@ -688,7 +688,7 @@ async function initDashboard() {
     if (logoutBtn) {
         logoutBtn.addEventListener('click', async () => {
             await window.sb.auth.signOut();
-            window.location.href = 'introduction.html';
+            window.location.href = 'index.html';
         });
     }
 }
