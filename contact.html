@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - MedHistory</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="assets/icons/icon-192x192.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="introduction.html" class="logo">MedHistory</a>
+                <div class="menu-toggle">☰</div>
+                <ul class="nav-links">
+                    <li><a href="introduction.html">Home</a></li>
+                    <li><a href="login.html">Login / Sign Up</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-2 mb-2">
+        <h1 class="text-center mb-2">Get in Touch</h1>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+
+            <!-- Contact Info -->
+            <div>
+                <div class="mb-2"
+                    style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: var(--shadow);">
+                    <h3 class="text-primary mb-1">Contact Information</h3>
+                    <p class="mb-1"><strong>Email:</strong> support@medhistory.example.com</p>
+                    <p class="mb-1"><strong>Phone:</strong> +1 (555) 123-4567</p>
+                    <p><strong>Address:</strong><br>123 Health Valley,<br>Wellness City, HC 90210</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: var(--shadow);">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="How can we help you?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="introduction.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2025 MedHistory. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
